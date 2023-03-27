@@ -1,4 +1,5 @@
-bash-backup
+Bash Backup script
+*******************
 
 Author: Chan Rajaram
 

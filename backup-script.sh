@@ -12,7 +12,7 @@
 
 # This command creates a backup of the users home directory and creates a tar file
 
-tar -cvf ~/bash-backup-home-dir/home_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/* 2>/home/ubuntu/error.log
+tar -cvf ~/bash-backup-home-dir/home_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/* 2>/dev/null
 
 #tar -cvf /home/$(whoami)/bash-backup-home-dir/home_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar /home/$(whoami)/* 2>/home/ubuntu/error.log
 
